@@ -1,0 +1,13 @@
+name: Topki
+version: 1.0
+main: pl.topki.TopkiPlugin
+api-version: '1.21'
+commands:
+  topki:
+    description: Topki serwera
+    usage: /topki
+    aliases: [topka]
+permissions:
+  topki.admin:
+    description: Zarzadzanie tablicami i resetem topek
+    default: op
