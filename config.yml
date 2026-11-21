@@ -1,0 +1,13 @@
+# Skala tablic i hologramów (0.3 - 5.0). Zmieniasz komendą /topki skala <wartość>
+scale: 1.0
+
+# Komendy wykonywane przy /topki reset dla gracza z 1. miejsca.
+# %player% = nick zwycięzcy
+rewards:
+  KILLS:
+    - "give %player% diamond 5"
+  KILLSTREAK: []
+  PLAYTIME: []
+  DEATHS: []
+  STONE: []
+  PEARLS: []
